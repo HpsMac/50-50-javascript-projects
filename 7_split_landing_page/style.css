@@ -60,8 +60,6 @@ h1 {
 }
 
 
-
-
 .container {
     position: relative;
     width: 100%;
@@ -124,14 +122,14 @@ h1 {
 }
 
 .hover-right .right {
-    width: var(--hover-width)
+    width: var(--hover-width);
 }
 
 .hover-right .left {
     width: var(--other-width);
 }
 
-@media(max-width: 800px){
+@media(max-width: 800px) {
     h1 {
         font-size: 2rem;
         top: 30%;
